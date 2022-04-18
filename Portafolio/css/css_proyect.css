@@ -1,0 +1,29 @@
+#fondo{
+    background-image: url(../imagen/10.jpg);
+    /*background-position: center;*/
+    background-size: cover;
+}
+.titulo{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 4px 1px 2px rgb(7, 7, 7), 0 0 50px rgb(4, 238, 255), 0 0 5px rgb(0, 139, 139);
+}
+.sub{
+    color: #fff;
+    text-align: center;
+    margin: 40px;
+    text-shadow: 4px 1px 2px rgb(7, 7, 7), 0 0 50px rgba(6, 156, 167, 0.39), 0 0 5px rgb(7, 133, 133);
+}
+#info{
+    text-align: center;
+    position: absolute;
+    left: 40%;
+}
+#btn{
+    position: absolute;
+    border-radius: 40%;
+    background-color: #fff;
+    padding: 5px;
+    margin-left: 10px;
+}

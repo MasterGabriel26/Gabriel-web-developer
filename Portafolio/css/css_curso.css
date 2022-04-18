@@ -1,0 +1,38 @@
+#fondo{
+    background-image: url(../imagen/10.jpg);
+    background-size: cover;
+}
+#info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: rgb(96, 255, 64);
+    text-align: center;
+}
+#titulo{
+    font-weight: bold;
+    margin: 20px;
+}
+.subtitulo{
+    color: #ffff;
+    text-align: center;
+    margin: 20px;
+}
+
+.card{
+    margin: 10px;
+}
+.card-body{
+    background-color: rgba(5, 31, 116, 0.103);
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+#btn{
+    position: absolute;
+    border-radius: 40%;
+    background-color: #fff;
+    padding: 5px;
+}

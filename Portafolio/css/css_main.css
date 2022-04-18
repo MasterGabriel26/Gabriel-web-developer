@@ -1,0 +1,47 @@
+#fondo{
+    background-image: url(../imagen/10.jpg);
+    /*background-position: center;*/
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+.titulo{
+    margin: 20px;
+}
+#title{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+}
+.opciones{
+    text-align: center;
+    color: #fff;
+    margin: 20px;  
+}
+.opciones span{
+    margin-left: 20px;
+}
+#info{
+    color: #fff;
+    column-count:4;
+    text-align: center;
+}
+#info img{
+    width: 125px;
+}
+#info2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 180px;
+    text-align: left;
+    color: #fff;
+}
+
+#btn{
+    position: absolute;
+    border-radius: 40%;
+    background-color: #fff;
+    padding: 5px;
+}

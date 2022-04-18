@@ -1,0 +1,71 @@
+#fondo{
+    background-image: url(../imagen/10.jpg);
+    /*background-position: center;*/
+    background-size: cover;
+}
+.contacto{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 4px 1px 2px rgb(7, 7, 7), 0 0 50px rgb(4, 238, 255), 0 0 5px rgb(0, 139, 139);
+}
+h2{
+    text-shadow: 4px 1px 2px rgb(7, 7, 7), 0 0 50px rgba(6, 156, 167, 0.39), 0 0 5px rgb(7, 133, 133);
+}
+#info{
+    color: #fff;
+    /*column-count: 5;*/
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px;
+}
+.what{
+    background-color: rgb(3, 131, 3);
+    border-radius: 30%;
+    border: 3px solid;
+   
+}
+.gmail{
+    border-radius: 30%;
+    border: 3px solid;
+    border-color: rgb(255, 255, 255);
+}
+.discord{
+    background-color: #fff;
+    border-radius: 30%;
+    border: 3px solid;
+    border-color: black;
+}
+#btn{
+    position: absolute;
+    border-radius: 40%;
+    background-color: #fff;
+    padding: 5px;
+}
+.git{
+    background-color: #fff;
+    border-radius: 30%;
+    border: 3px solid;
+    border-color: black;
+}
+.r1{
+    flex: 1;
+    min-width: 150px;
+}
+.r2{
+    flex: 2;
+    min-width: 350px;
+}
+.r3{
+    flex: 3;
+    min-width: 150px;
+}
+.r4{
+    flex: 4;
+    min-width: 360px;
+}
+.r5{
+    flex: 5;
+    min-width: 150px;
+}
